@@ -9,6 +9,13 @@ export const projects = [
   },
   {
     title: "OER Bookr",
+    tech: "React, React Router, Styled Components, Node, Express, mySQL",
+    description: "OER Bookr is a Single Page Application enabling users to share educational books.",
+    link: "https://open-source-edu-books.netlify.com/",
+    githubLink: "https://github.com/oer-booker-best-team"
+  },
+  {
+    title: "OER Bookr",
     tech: "React, React Router, Styled Components, Node, Express",
     description: "OER Bookr is a Single Page Application enabling users to share educational books.",
     link: "https://open-source-edu-books.netlify.com/",

@@ -13,20 +13,21 @@ export const Nav = styled(LinkGroupColumn)`
   top: 0;
   height: 100%;
   width: 20%;
-  background-color: #01327e;
-  color: #fff;
+  /* background-color: #01327e; */
+  background-color: #4d6fa4;
+  color: white;
   padding: 0 1.5%;
   font-family: "Playfair Display", serif;
   text-transform: uppercase;
   font-size: 1.8rem;
-  opacity: 0.7;
+  opacity: 0.8;
 `;
 
 export const NavLinks = styled(LinkGroupColumn)`
   height: 20%;
   padding: 30px 0;
   span {
-    color: #fff;
+    color: white;
   }
 `;
 

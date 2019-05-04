@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   margin-left: 20%;
-  margin-top: 200px;
+  margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
   color: white;
@@ -25,25 +25,9 @@ export const Header = styled.header`
   }
 `;
 
-export const BG = styled.img`
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  opacity: 0.7;
-`;
-
-export const Icons = styled.div`
-  display: flex;
-  width: 100%;
-  justify-content: flex-end;
-
-  i {
-    margin: 20px 3%;
-    font-size: 3rem;
-    color: white;
-  }
+export const About = styled.div`
+  font-size: 2.6rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
 `;
