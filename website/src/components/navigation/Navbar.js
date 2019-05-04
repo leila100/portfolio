@@ -13,8 +13,8 @@ const NavBar = () => {
         </NavLink>
       </NavIntro>
       <NavLinks>
-        <NavLink to='/portfolio' activeClassName='activeNavButton'>
-          <span>Portfolio</span>
+        <NavLink to='/projects' activeClassName='activeNavButton'>
+          <span>Projects</span>
         </NavLink>
         <NavLink to='/skills' activeClassName='activeNavButton'>
           <span>Skills</span>
@@ -26,9 +26,15 @@ const NavBar = () => {
       <NavContact>
         <span>Get in Touch</span>
         <NavLinks>
-          <span>Email</span>
-          <span>LinkedIn</span>
-          <span>Github</span>
+          <span>
+            <i className='far fa-envelope' /> Email
+          </span>
+          <span>
+            <i className='fab fa-linkedin' /> LinkedIn
+          </span>
+          <span>
+            <i className='fab fa-github' /> Github
+          </span>
         </NavLinks>
       </NavContact>
     </Nav>

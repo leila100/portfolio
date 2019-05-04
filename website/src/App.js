@@ -3,8 +3,8 @@ import { Route } from "react-router-dom";
 
 import NavBar from "./components/navigation/Navbar";
 import "./App.css";
-import backImage from "./assets/images/background.jpg";
 import Home from "./components/Home";
+import Projects from "./components/project/Projects";
 
 class App extends Component {
   render() {
@@ -14,6 +14,7 @@ class App extends Component {
           <NavBar />
           <main>
             <Route exact path='/' component={Home} />
+            <Route path='/projects' component={Projects} />
           </main>
         </div>
       </>

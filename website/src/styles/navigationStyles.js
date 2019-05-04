@@ -4,7 +4,6 @@ export const LinkGroupColumn = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  /* align-items: center; */
 `;
 
 export const Nav = styled(LinkGroupColumn)`
@@ -50,5 +49,7 @@ export const NavIntro = styled(LinkGroupColumn)`
 `;
 
 export const NavContact = styled(LinkGroupColumn)`
-  /* height: 45%; */
+  i {
+    margin: 8px 5% 8px;
+  }
 `;
