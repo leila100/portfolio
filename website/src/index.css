@@ -164,3 +164,8 @@ a:hover {
 #root {
   height: 100%;
 }
+
+body {
+  background-image: linear-gradient(to right, #2f88d6, #515cde);
+  background-size: cover;
+}

@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   max-width: 800px;
-  margin: 100px auto;
+  margin: auto;
+  margin-top: 50px;
   text-align: center;
   color: white;
   font-family: "Playfair Display", serif;
@@ -18,7 +19,7 @@ export const Header = styled.header`
     line-height: 1.2;
   }
   @media (max-width: 800px) {
-    margin: 50px auto;
+    /* margin-top: 20px; */
     line-height: 50px;
     h1 {
       font-size: 4.5rem;
@@ -36,11 +37,13 @@ export const About = styled.div`
   display: flex;
   margin-top: 10px;
   font-family: "Playfair Display", serif;
+  padding: 20px;
   p {
     font-size: 2.2rem;
     text-align: left;
     margin-left: 7%;
     line-height: 1.8;
+    margin-top: 10px;
   }
   img {
     text-align: center;
@@ -56,6 +59,11 @@ export const About = styled.div`
       width: 30%;
       margin-bottom: 10px;
     }
+    p {
+      margin-left: 0;
+      font-size: 1.8rem;
+      line-height: 2;
+    }
   }
 `;
 
@@ -65,5 +73,6 @@ export const Who = styled.div`
   cursor: pointer;
   i {
     margin-right: 2%;
+    font-size: 3rem;
   }
 `;

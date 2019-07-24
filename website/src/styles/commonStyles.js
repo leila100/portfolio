@@ -5,7 +5,7 @@ export const Icons = styled.div`
   width: 100%;
 
   ${props => props.left && `justify-content: flex-start;`}
-  ${props => props.end && `justify-content: flex-end;`}
+  ${props => props.right && `justify-content: flex-end;`}
 
   i {
     margin: 20px 3%;
@@ -15,9 +15,8 @@ export const Icons = styled.div`
 `;
 
 export const Container = styled.div`
-  height: 100vh;
-  /* padding: 10px; */
+  height: 100%;
   margin: auto;
-  background-image: linear-gradient(to right, #2f88d6, #515cde);
-  background-size: cover;
+  /* background-image: linear-gradient(to right, #2f88d6, #515cde);
+  background-size: cover; */
 `;

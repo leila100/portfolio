@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { NavLinks, Nav, NavIntro, NavContact } from "../../styles/navigationStyles";
+import { Nav } from "../../styles/navigationStyles";
 import Fade from "react-reveal/Fade";
 
 const NavBar = () => {
@@ -8,17 +8,17 @@ const NavBar = () => {
     <Nav>
       <Fade bottom delay={200}>
         <NavLink to='/'>
-          <i className='fas fa-user-circle' />
+          <i className='fas fa-user-circle' title='Home' /> <div>HOME</div>
         </NavLink>
       </Fade>
       <Fade bottom delay={400}>
         <NavLink to='/projects'>
-          <i className='fas fa-briefcase' />
+          <i className='fas fa-briefcase' title='Projects' /> <div>PROJECTS</div>
         </NavLink>
       </Fade>
       <Fade bottom delay={600}>
         <NavLink to='/resume'>
-          <i className='far fa-file' />
+          <i className='far fa-file' title='Resume' /> <div>RESUME</div>
         </NavLink>
       </Fade>
     </Nav>

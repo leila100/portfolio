@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
-import Swing from "react-reveal/Swing";
+import HeadShake from "react-reveal/HeadShake";
 
 import { Header, About, Who } from "../../styles/homeStyles";
 import { Icons, Container } from "../../styles/commonStyles";
@@ -16,7 +16,7 @@ const Home = () => {
 
   return (
     <Container>
-      <Icons end>
+      <Icons right>
         <i className='far fa-envelope' />
         <i className='fab fa-linkedin' />
         <i className='fab fa-github' />
@@ -25,11 +25,16 @@ const Home = () => {
         <h1>LEILA BERROUAYEL</h1>
         <h2>WEB/SOFTWARE DEVELOPER</h2>
         <h3>Reliable . Committed . Dependable</h3>
-        <Swing>
-          <Who onClick={handleOpen}>
-            {!open ? <i className='fas fa-caret-right' /> : <i className='fas fa-caret-down' />} Who is Leila?
-          </Who>
-        </Swing>
+        <Who onClick={handleOpen}>
+          {!open ? (
+            <HeadShake count={3} duration={2000} delay={2000}>
+              <i className='fas fa-caret-right' />
+            </HeadShake>
+          ) : (
+            <i className='fas fa-caret-down' />
+          )}
+          Who is Leila?
+        </Who>
         <Fade collapse when={open} duration={1000}>
           <About>
             <img src={leila} alt='Leila_img' />
