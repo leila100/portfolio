@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   max-width: 800px;
-  margin: 20px auto;
+  margin: 100px auto;
   text-align: center;
   color: white;
   font-family: "Playfair Display", serif;
@@ -16,6 +16,19 @@ export const Header = styled.header`
   h3 {
     font-size: 2.5rem;
     line-height: 1.2;
+  }
+  @media (max-width: 800px) {
+    margin: 50px auto;
+    line-height: 50px;
+    h1 {
+      font-size: 4.5rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+    }
+    h3 {
+      font-size: 2rem;
+    }
   }
 `;
 
@@ -35,6 +48,14 @@ export const About = styled.div`
     width: 60%;
     height: 200px;
     border-radius: 30%;
+  }
+  @media (max-width: 800px) {
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 30%;
+      margin-bottom: 10px;
+    }
   }
 `;
 

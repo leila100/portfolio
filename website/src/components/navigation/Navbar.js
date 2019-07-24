@@ -1,42 +1,26 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { NavLinks, Nav, NavIntro, NavContact } from "../../styles/navigationStyles";
-import leila from "../../assets/images/Leila.jpg";
+import Fade from "react-reveal/Fade";
 
 const NavBar = () => {
   return (
     <Nav>
-      <NavIntro>
-        <NavLink exact to='/' activeClassName='activeNavButton'>
-          <img src={leila} alt='Leila_img' />
-          <h2>LEILA BERROUAYEL</h2>
+      <Fade bottom delay={200}>
+        <NavLink to='/'>
+          <i className='fas fa-user-circle' />
         </NavLink>
-      </NavIntro>
-      <NavLinks>
-        <NavLink to='/projects' activeClassName='activeNavButton'>
-          <span>Projects</span>
+      </Fade>
+      <Fade bottom delay={400}>
+        <NavLink to='/projects'>
+          <i className='fas fa-briefcase' />
         </NavLink>
-        <NavLink to='/skills' activeClassName='activeNavButton'>
-          <span>Skills</span>
+      </Fade>
+      <Fade bottom delay={600}>
+        <NavLink to='/resume'>
+          <i className='far fa-file' />
         </NavLink>
-        <NavLink to='/contact' activeClassName='activeNavButton'>
-          <span>Contact Me</span>
-        </NavLink>
-      </NavLinks>
-      <NavContact>
-        <span>Get in Touch</span>
-        <NavLinks>
-          <span>
-            <i className='far fa-envelope' /> Email
-          </span>
-          <span>
-            <i className='fab fa-linkedin' /> LinkedIn
-          </span>
-          <span>
-            <i className='fab fa-github' /> Github
-          </span>
-        </NavLinks>
-      </NavContact>
+      </Fade>
     </Nav>
   );
 };
