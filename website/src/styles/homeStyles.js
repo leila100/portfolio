@@ -1,9 +1,8 @@
 import styled from "styled-components";
-import posed from "react-pose";
 
 export const Header = styled.header`
   max-width: 800px;
-  margin: 50px auto;
+  margin: 20px auto;
   text-align: center;
   color: white;
   font-family: "Playfair Display", serif;
@@ -16,15 +15,16 @@ export const Header = styled.header`
   }
   h3 {
     font-size: 2.5rem;
+    line-height: 1.2;
   }
 `;
 
 export const About = styled.div`
   display: flex;
-  /* margin-top: 50px; */
+  margin-top: 10px;
   font-family: "Playfair Display", serif;
   p {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     text-align: left;
     margin-left: 7%;
     line-height: 1.8;
@@ -38,22 +38,11 @@ export const About = styled.div`
   }
 `;
 
-export const Open = posed.div({
-  enter: {
-    y: 0,
-    opacity: 1,
-    delay: 300,
-    transition: {
-      default: { duration: 300 }
-    }
-  },
-  exit: {
-    y: 50,
-    opacity: 0,
-    transition: { duration: 200 }
-  }
-});
-
 export const Who = styled.div`
   font-size: 2.5rem;
+  margin-top: 10px;
+  cursor: pointer;
+  i {
+    margin-right: 2%;
+  }
 `;
