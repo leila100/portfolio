@@ -3,7 +3,7 @@ import { Route } from "react-router-dom";
 
 import NavBar from "./components/navigation/Navbar";
 import "./App.css";
-import Home from "./components/Home";
+import Home from "./components/home/Home";
 import Projects from "./components/project/Projects";
 
 class App extends Component {
@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <>
         <div className='App'>
-          <NavBar />
+          {/* <NavBar /> */}
           <Route exact path='/' component={Home} />
           <Route path='/projects' component={Projects} />
         </div>
