@@ -51,6 +51,10 @@ export const List = styled(Section)`
   li {
     margin-bottom: 10px;
   }
+  img {
+    height: 350px;
+    margin-top: 10px;
+  }
 `;
 
 export const Techs = styled(Section)`
@@ -77,5 +81,15 @@ export const Tech = styled.span`
   @media (max-width: 800px) {
     font-size: 1.5rem;
     width: 43%;
+  }
+`;
+
+export const Images = styled.div`
+  display: flex;
+  @media (max-width: 800px) {
+    flex-direction: column;
+    img {
+      width: 80%;
+    }
   }
 `;

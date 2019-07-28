@@ -2,7 +2,13 @@ import React from "react";
 
 import NavBar from "../navigation/Navbar";
 import helloMelon from "../../assets/images/helloMelon_home.png";
-import { HelloMelonWrapper, Section, List, Techs, Tech } from "../../styles/helloMelonStyles";
+import dashboard from "../../assets/images/helloMelon_Dashboard.png";
+import dashboard2 from "../../assets/images/helloMelon_Dashboard2.png";
+import reports from "../../assets/images/helloMelon_reports.png";
+import reports2 from "../../assets/images/helloMelon_reports2.png";
+import coach from "../../assets/images/helloMelon_coach.png";
+import coach2 from "../../assets/images/helloMelon_coach2.png";
+import { HelloMelonWrapper, Section, List, Techs, Tech, Images } from "../../styles/helloMelonStyles";
 
 const HelloLemon = () => {
   return (
@@ -50,6 +56,28 @@ const HelloLemon = () => {
               or create your own entry. You can even choose foods from popular brands and restaurants. Enter also your
               daily workout.
             </p>
+            <Images>
+              <a
+                href={dashboard}
+                target='_blank'
+                rel='noopener noreferrer'
+                data-aos='fade-right'
+                data-aos-easing='ease-out-cubic'
+                data-aos-duration='1500'
+              >
+                <img src={dashboard} alt='Hello Melon - Dashboard' />
+              </a>
+              <a
+                href={dashboard2}
+                target='_blank'
+                rel='noopener noreferrer'
+                data-aos='fade-left'
+                data-aos-easing='ease-out-cubic'
+                data-aos-duration='1500'
+              >
+                <img src={dashboard2} alt='Hello Melon - Dashboard' />
+              </a>
+            </Images>
           </li>
           <li>
             <h3>Access custom reports</h3>
@@ -57,6 +85,28 @@ const HelloLemon = () => {
               See your progress with our customer reports. Whether your goal is to keep track of your nutrients or just
               a calory count, we have it all for you. You can also download a pdf report to share.
             </p>
+            <Images>
+              <a
+                href={reports}
+                target='_blank'
+                rel='noopener noreferrer'
+                data-aos='fade-right'
+                data-aos-easing='ease-out-cubic'
+                data-aos-duration='1500'
+              >
+                <img src={reports} alt='Hello Melon - Reports' />
+              </a>
+              <a
+                href={reports2}
+                target='_blank'
+                rel='noopener noreferrer'
+                data-aos='fade-left'
+                data-aos-easing='ease-out-cubic'
+                data-aos-duration='1500'
+              >
+                <img src={reports2} alt='Hello Melon - Reports' />
+              </a>
+            </Images>
           </li>
           <li>
             <h3>Get a coach to follow you</h3>
@@ -64,6 +114,28 @@ const HelloLemon = () => {
               Whether you want a friend or your personal trainer to see your progress or keep you accountable, our coach
               feature allows you to communicate your progress easily.
             </p>
+            <Images>
+              <a
+                href={coach}
+                target='_blank'
+                rel='noopener noreferrer'
+                data-aos='fade-right'
+                data-aos-easing='ease-out-cubic'
+                data-aos-duration='1500'
+              >
+                <img src={coach} alt='Hello Melon - Reports' />
+              </a>
+              <a
+                href={coach2}
+                target='_blank'
+                rel='noopener noreferrer'
+                data-aos='fade-left'
+                data-aos-easing='ease-out-cubic'
+                data-aos-duration='1500'
+              >
+                <img src={coach2} alt='Hello Melon - Reports' />
+              </a>
+            </Images>
           </li>
         </ul>
       </List>
