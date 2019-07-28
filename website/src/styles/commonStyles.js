@@ -7,7 +7,7 @@ export const Icons = styled.div`
   ${props => props.left && `justify-content: flex-start;`}
   ${props => props.right && `justify-content: flex-end;`}
 
-  i {
+  a {
     margin: 20px 3%;
     font-size: 3rem;
     color: white;

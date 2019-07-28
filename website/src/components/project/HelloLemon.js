@@ -11,6 +11,21 @@ const HelloLemon = () => {
       <h1>Welcome to Hello Melon</h1>
       <h2>Take control of your health</h2>
       <img src={helloMelon} alt='Hello Melon - Home' />
+      <List>
+        <h2>Links</h2>
+        <ul>
+          <li>
+            <a href='https://hello-melon-lambda.netlify.com/' target='_blank' rel='noopener noreferrer'>
+              <h3>Application - https://hello-melon-lambda.netlify.com/</h3>
+            </a>
+          </li>
+          <li>
+            <a href='https://github.com/labspt3-nutrition-tracker' target='_blank' rel='noopener noreferrer'>
+              <h3>Github - https://github.com/labspt3-nutrition-tracker</h3>
+            </a>
+          </li>
+        </ul>
+      </List>
       <Section>
         <h2>Overview</h2>
         <p>

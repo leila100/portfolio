@@ -18,13 +18,19 @@ class App extends Component {
         <div>
           <Icons right>
             <Swing count={3} duration={2000} delay={2000}>
-              <i className='far fa-envelope' />
+              <a href='mailto:nb.leila10@gmail.com' target='_blank' rel='noopener noreferrer'>
+                <i className='far fa-envelope' />
+              </a>
             </Swing>
             <Swing count={3} duration={2000} delay={3000}>
-              <i className='fab fa-linkedin' />
+              <a href='https://www.linkedin.com/in/leila-berrouayel/' target='_blank' rel='noopener noreferrer'>
+                <i className='fab fa-linkedin' />
+              </a>
             </Swing>
             <Swing count={3} duration={2000} delay={4000}>
-              <i className='fab fa-github' />
+              <a href='https://github.com/leila100' target='_blank' rel='noopener noreferrer'>
+                <i className='fab fa-github' />
+              </a>
             </Swing>
           </Icons>
           <Route exact path='/' component={Home} />

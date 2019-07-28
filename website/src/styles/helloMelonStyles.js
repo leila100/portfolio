@@ -8,7 +8,7 @@ export const HelloMelonWrapper = styled.div`
   text-align: center;
   color: white;
   font-family: "Playfair Display", serif;
-  line-height: 70px;
+  line-height: 55px;
 
   h1 {
     font-size: 4rem;
@@ -20,7 +20,10 @@ export const HelloMelonWrapper = styled.div`
   img {
     width: 90%;
     height: 500px;
-    margin-top: 50px;
+    margin-top: 60px;
+    @media (max-width: 900px) {
+      height: 300px;
+    }
   }
 `;
 
