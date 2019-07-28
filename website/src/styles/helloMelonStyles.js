@@ -4,6 +4,7 @@ export const HelloMelonWrapper = styled.div`
   max-width: 1200px;
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center;
   color: white;
   font-family: "Playfair Display", serif;
@@ -25,11 +26,11 @@ export const HelloMelonWrapper = styled.div`
 
 export const Section = styled.section`
   text-align: left;
-  /* margin: 0 5% 20px; */
+  margin: 10px 5%;
   font-family: "Open Sans", sans-serif;
 
   h2 {
-    font-size: 2.2rem;
+    font-size: 3rem;
   }
   p {
     font-size: 1.8rem;
@@ -37,9 +38,9 @@ export const Section = styled.section`
   }
 `;
 
-export const Features = styled(Section)`
+export const List = styled(Section)`
   h3 {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
   ul {
     list-style-type: circle;
@@ -61,16 +62,17 @@ export const Tech = styled.span`
   margin: 10px;
   height: 50px;
   margin: 10px 10px;
-  width: 15%;
+  width: 20%;
   text-align: center;
   line-height: 3;
   font-size: 1.7rem;
 
   @media (max-width: 950px) {
     font-size: 1.6rem;
-    width: 20%;
+    width: 25%;
   }
   @media (max-width: 800px) {
-    width: 30%;
+    font-size: 1.5rem;
+    width: 43%;
   }
 `;

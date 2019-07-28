@@ -1,11 +1,15 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
 import Swing from "react-reveal/Swing";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import Home from "./components/home/Home";
 import Projects from "./components/project/Projects";
 import { Icons } from "./styles/commonStyles";
 import HelloLemon from "./components/project/HelloLemon";
+
+AOS.init();
 
 class App extends Component {
   render() {

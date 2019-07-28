@@ -18,6 +18,7 @@ export const ProjectWrapper = styled.div`
   border-radius: 15px;
   padding: 40px 30px;
   box-shadow: -1px 7px 35px -3px #454545;
+  transition: background-color 1s;
   :hover {
     background-color: #d7d7d7;
     h1 {
