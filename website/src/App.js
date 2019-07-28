@@ -25,7 +25,7 @@ class App extends Component {
           </Icons>
           <Route exact path='/' component={Home} />
           <Route path='/projects' component={Projects} />
-          <Route path='/helloLemon' component={HelloLemon} />
+          <Route path='/helloMelon' component={HelloLemon} />
         </div>
       </>
     );

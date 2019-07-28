@@ -4,8 +4,9 @@ export const ProjectsWrapper = styled.div`
   padding-bottom: 55px;
   display: flex;
   flex-direction: column;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
+  font-family: "Playfair Display", serif;
 `;
 
 export const ProjectWrapper = styled.div`
@@ -17,12 +18,23 @@ export const ProjectWrapper = styled.div`
   border-radius: 15px;
   padding: 40px 30px;
   box-shadow: -1px 7px 35px -3px #454545;
-  background-color: #d7d7d7;
+  :hover {
+    background-color: #d7d7d7;
+    h1 {
+      color: #515cde;
+    }
+    i{
+      color: #515cde;
+    }
+    p {
+      color: black;
+    }
+  }
 
   h1 {
     font-size: 3rem;
     font-weight: 700;
-    color: #3D76D8;
+    color: white;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -35,9 +47,8 @@ export const ProjectWrapper = styled.div`
   }
 
   p {
-    color: #001e3b;
+    color: white;
     font-size: 2.2rem;
-    font-weight: 600;
     line-height: 1.5;
     margin-bottom: 30px;
   }
@@ -45,15 +56,21 @@ export const ProjectWrapper = styled.div`
   i {
     margin: 10px;
     font-size: 2.2rem;
-    color: #3D76D8;
+    color: white;
     :hover {
       color: black;
     }
   }
-  img {
-    width: 80%;
+  a {
+    width: 100%;
+    img {
+    width: 70%;
     height: 200px;
-    margin: 20px auto;
+    margin: 20px 15%;
+    }
+  }
+  div a {
+    width: 10%;
   }
 
   /* ${props => (props.index % 2 === 0 ? `transform: rotate(-1.5deg);` : `transform: rotate(1.5deg);`)} */
