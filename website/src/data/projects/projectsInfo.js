@@ -1,37 +1,24 @@
 export const projects = [
   {
-    title: "Burger Builder",
-    tech: "React, React Router, Redux, Redux Saga, Styled Components, firebase DB",
+    title: "Hello Melon",
+    tech:
+      "React, Graphql, Jest, sqlite3, strip, MaterialUI, Styled Components, fullcalendar, react-chartjs-2, react-pdf-renderer",
     description:
-      "Build a burger is an application that let the user build their own berger, and then order it. The user can view a list of previous orders",
-    link: "https://burger-builder-dd325.firebaseapp.com/",
-    githubLink: "https://github.com/leila100/Burger-Builder"
+      "A nutrition tracking application that provides a visualization of eating patterns and nutritional data to empower people to take control of their health.",
+    link: "https://hello-melon-lambda.netlify.com/",
+    githubLink: "https://github.com/labspt3-nutrition-tracker"
+  },
+  {
+    title: "Forget Me Not",
+    tech: "React, React Router, Redux, Redux Saga, Styled Components, firebase DB",
+    description: "An app that automatically sends out emails on loved one's special days.",
+    link: "",
+    githubLink: ""
   },
   {
     title: "OER Bookr",
     tech: "React, React Router, Styled Components, Node, Express, mySQL",
-    description: "OER Bookr is a Single Page Application enabling users to share educational books.",
-    link: "https://open-source-edu-books.netlify.com/",
-    githubLink: "https://github.com/oer-booker-best-team"
-  },
-  {
-    title: "OER Bookr",
-    tech: "React, React Router, Styled Components, Node, Express",
-    description: "OER Bookr is a Single Page Application enabling users to share educational books.",
-    link: "https://open-source-edu-books.netlify.com/",
-    githubLink: "https://github.com/oer-booker-best-team"
-  },
-  {
-    title: "OER Bookr",
-    tech: "React, React Router, Styled Components, Node, Express",
-    description: "OER Bookr is a Single Page Application enabling users to share educational books.",
-    link: "https://open-source-edu-books.netlify.com/",
-    githubLink: "https://github.com/oer-booker-best-team"
-  },
-  {
-    title: "OER Bookr",
-    tech: "React, React Router, Styled Components, Node, Express",
-    description: "OER Bookr is a Single Page Application enabling users to share educational books.",
+    description: "OER Bookr is an application enabling users to share educational books.",
     link: "https://open-source-edu-books.netlify.com/",
     githubLink: "https://github.com/oer-booker-best-team"
   }

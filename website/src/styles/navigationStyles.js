@@ -10,6 +10,8 @@ export const Nav = styled.div`
   margin: auto;
   margin-top: 45px;
   width: 80%;
+  line-height: 70px;
+  color: white;
   i {
     border-radius: 50%;
     border: 1px solid white;
@@ -21,8 +23,13 @@ export const Nav = styled.div`
     :hover {
       i {
         background-color: #d7d7d7;
+        color: #515cde;
       }
     }
+  }
+  .active i {
+    background-color: #d7d7d7;
+    color: #515cde;
   }
   @media (max-width: 800px) {
     margin-top: 20px;

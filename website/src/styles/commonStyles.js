@@ -15,8 +15,5 @@ export const Icons = styled.div`
 `;
 
 export const Container = styled.div`
-  height: 100%;
   margin: auto;
-  /* background-image: linear-gradient(to right, #2f88d6, #515cde);
-  background-size: cover; */
 `;

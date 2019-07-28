@@ -1,16 +1,55 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Fade from "react-reveal/Fade";
 
-import { projects } from "../../data/projects/projectsInfo";
-import Project from "./project";
-import { ProjectsWrapper } from "../../styles/projectStyles";
+import { ProjectsWrapper, ProjectWrapper } from "../../styles/projectStyles";
+import { Icons } from "../../styles/commonStyles";
+import NavBar from "../navigation/Navbar";
+import helloMelon from "../../assets/images/helloMelon_home.png";
+import oerBookr from "../../assets/images/OERBookr_home.png";
 
 const Projects = () => {
   return (
     <>
+      <NavBar />
       <ProjectsWrapper>
-        {projects.map((prj, index) => (
-          <Project prj={prj} index={index} />
-        ))}
+        <Fade right duration={1200} delay={500}>
+          <Link to='/helloLemon'>
+            <ProjectWrapper>
+              <h1>Hello Melon</h1>
+              <img src={helloMelon} alt='Hello Melon - Home' />
+              <p>
+                A nutrition tracking application that provides a visualization of eating patterns and nutritional data
+                to empower people to take control of their health.
+              </p>
+              <Icons left>
+                <a href='https://hello-melon-lambda.netlify.com/' target='_blank' rel='noopener noreferrer'>
+                  <i className='fas fa-eye' />
+                </a>
+                <a href='https://github.com/labspt3-nutrition-tracker' target='_blank' rel='noopener noreferrer'>
+                  <i className='fab fa-github' />
+                </a>
+              </Icons>
+            </ProjectWrapper>
+          </Link>
+        </Fade>
+        <Fade left duration={1200} delay={1000}>
+          <Link to='/'>
+            <ProjectWrapper>
+              <h1>OER Bookr</h1>
+              <img src={oerBookr} alt='Hello Melon - Home' />
+              <p>OER Bookr is an application enabling users to share educational books.</p>
+              <Icons left>
+                <a href='https://open-source-edu-books.netlify.com/' target='_blank' rel='noopener noreferrer'>
+                  <i className='fas fa-eye' />
+                </a>
+                <a href='https://github.com/oer-booker-best-team' target='_blank' rel='noopener noreferrer'>
+                  <i className='fab fa-github' />
+                </a>
+              </Icons>
+            </ProjectWrapper>
+          </Link>
+        </Fade>
       </ProjectsWrapper>
     </>
   );

@@ -1,19 +1,31 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
+import Swing from "react-reveal/Swing";
 
-import NavBar from "./components/navigation/Navbar";
-import "./App.css";
 import Home from "./components/home/Home";
 import Projects from "./components/project/Projects";
+import { Icons } from "./styles/commonStyles";
+import HelloLemon from "./components/project/HelloLemon";
 
 class App extends Component {
   render() {
     return (
       <>
-        <div className='App'>
-          {/* <NavBar /> */}
+        <div>
+          <Icons right>
+            <Swing count={3} duration={2000} delay={2000}>
+              <i className='far fa-envelope' />
+            </Swing>
+            <Swing count={3} duration={2000} delay={3000}>
+              <i className='fab fa-linkedin' />
+            </Swing>
+            <Swing count={3} duration={2000} delay={4000}>
+              <i className='fab fa-github' />
+            </Swing>
+          </Icons>
           <Route exact path='/' component={Home} />
           <Route path='/projects' component={Projects} />
+          <Route path='/helloLemon' component={HelloLemon} />
         </div>
       </>
     );

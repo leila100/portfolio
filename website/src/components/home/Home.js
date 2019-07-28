@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import HeadShake from "react-reveal/HeadShake";
 
 import { Header, About, Who } from "../../styles/homeStyles";
-import { Icons, Container } from "../../styles/commonStyles";
+import { Container } from "../../styles/commonStyles";
 import leila from "../../assets/images/Leila.jpg";
 import NavBar from "../navigation/Navbar";
 
@@ -16,18 +16,13 @@ const Home = () => {
 
   return (
     <Container>
-      <Icons right>
-        <i className='far fa-envelope' />
-        <i className='fab fa-linkedin' />
-        <i className='fab fa-github' />
-      </Icons>
       <Header>
         <h1>LEILA BERROUAYEL</h1>
         <h2>WEB/SOFTWARE DEVELOPER</h2>
         <h3>Reliable . Committed . Dependable</h3>
         <Who onClick={handleOpen}>
           {!open ? (
-            <HeadShake count={3} duration={2000} delay={2000}>
+            <HeadShake forever duration={2000} delay={500}>
               <i className='fas fa-caret-right' />
             </HeadShake>
           ) : (

@@ -7,8 +7,8 @@ const NavBar = () => {
   return (
     <Nav>
       <Fade bottom delay={200}>
-        <NavLink to='/'>
-          <i className='fas fa-user-circle' title='Home' /> <div>HOME</div>
+        <NavLink exact to='/'>
+          <i className='fas fa-user-circle' title='About' /> <div>ABOUT</div>
         </NavLink>
       </Fade>
       <Fade bottom delay={400}>

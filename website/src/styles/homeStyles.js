@@ -19,7 +19,6 @@ export const Header = styled.header`
     line-height: 1.2;
   }
   @media (max-width: 800px) {
-    /* margin-top: 20px; */
     line-height: 50px;
     h1 {
       font-size: 4.5rem;
@@ -55,6 +54,7 @@ export const About = styled.div`
   @media (max-width: 800px) {
     flex-direction: column;
     align-items: center;
+    margin-top: 0;
     img {
       width: 30%;
       margin-bottom: 10px;
