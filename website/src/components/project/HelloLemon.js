@@ -8,7 +8,8 @@ import reports from "../../assets/images/helloMelon_reports.png";
 import reports2 from "../../assets/images/helloMelon_reports2.png";
 import coach from "../../assets/images/helloMelon_coach.png";
 import coach2 from "../../assets/images/helloMelon_coach2.png";
-import { HelloMelonWrapper, Section, List, Techs, Tech, Images } from "../../styles/helloMelonStyles";
+import { HelloMelonWrapper, Images } from "../../styles/helloMelonStyles";
+import { Section, List, Techs, Tech } from "../../styles/commonStyles";
 
 const HelloLemon = () => {
   return (
@@ -35,15 +36,23 @@ const HelloLemon = () => {
       <Section>
         <h2>Overview</h2>
         <p>
-          A nutrition tracking application that provides a visualization of eating patterns and nutritional data to
-          empower people to take control of their health.
+          Hello Melon is a nutrition tracking application that provides a visualization of eating patterns and
+          nutritional data to empower people to take control of their health.
+        </p>
+        <p>
+          We designed, coded, and delivered a production level web application for people wanting to keep track of their
+          food consumption and eventually share it for accountability.
+        </p>
+        <p>
+          We focused on making a simple, user friendly application with an intuitive user experience, that you would
+          want to use everyday.
         </p>
       </Section>
       <Section>
         <h2>Team</h2>
         <p>
-          This application was built by a team of 6 (then 4) people managed and guided by Lambda School's Team Leads. It
-          took about 10 weeks to build (working mostly nights).
+          This application was built by a remote team of 6 (then 4) people managed and guided by Lambda School's Team
+          Leads. It took about 10 weeks to build (working mostly nights).
         </p>
       </Section>
       <List>

@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 
 import Home from "./components/home/Home";
 import Projects from "./components/project/Projects";
+import Resume from "./components/resume/resume";
 import { Icons } from "./styles/commonStyles";
 import HelloLemon from "./components/project/HelloLemon";
 
@@ -36,6 +37,7 @@ class App extends Component {
           <Route exact path='/' component={Home} />
           <Route path='/projects' component={Projects} />
           <Route path='/helloMelon' component={HelloLemon} />
+          <Route path='/resume' component={Resume} />
         </div>
       </>
     );
