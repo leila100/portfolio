@@ -32,7 +32,7 @@ export const Contact = styled.div`
 
   justify-content: flex-start;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.7rem;
   width: 45%;
   margin-left: 5%;
   p {
@@ -40,6 +40,10 @@ export const Contact = styled.div`
   }
   a {
     margin: 0;
+  }
+  @media (max-width: 900px) {
+    font-size: 1.8rem;
+    width: 100%;
   }
 `;
 
@@ -49,6 +53,9 @@ export const Body = styled.div`
   line-height: 2;
   section {
     margin-left: 0;
+  }
+  @media (max-width: 900px) {
+    flex-direction: column;
   }
 `;
 
@@ -62,6 +69,9 @@ export const Column = styled.div`
   }
   h4 {
     font-size: 1.8rem;
+  }
+  @media (max-width: 900px) {
+    width: 100%;
   }
 `;
 
