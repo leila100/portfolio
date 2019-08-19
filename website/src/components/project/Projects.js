@@ -36,7 +36,7 @@ const Projects = () => {
         </Fade>
         <Fade left duration={1200} delay={1000}>
           <ProjectWrapper>
-            <Link to='/'>
+            <Link to='/FMN'>
               <h1>Forget Me Not</h1>
               <img src={forgetMeNot} alt='Forget Me Not - Home' />
               <p>

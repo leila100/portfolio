@@ -24,7 +24,7 @@ export const ProjectWrapper = styled.div`
     h1 {
       color: #515cde;
     }
-    i{
+    i {
       color: #515cde;
     }
     p {
@@ -65,14 +65,61 @@ export const ProjectWrapper = styled.div`
   a {
     width: 100%;
     img {
-    width: 70%;
-    height: 200px;
-    margin: 20px 15%;
+      width: 70%;
+      height: 200px;
+      margin: 20px 15%;
     }
   }
   div a {
     width: 10%;
   }
+`;
 
-  /* ${props => (props.index % 2 === 0 ? `transform: rotate(-1.5deg);` : `transform: rotate(1.5deg);`)} */
+export const ProjDescriptionWrapper = styled.div`
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  font-family: "Playfair Display", serif;
+  line-height: 55px;
+
+  h1 {
+    font-size: 4rem;
+    margin-top: 50px;
+  }
+  h2 {
+    font-size: 2.2rem;
+  }
+  img {
+    width: 90%;
+    height: 500px;
+    margin-top: 60px;
+    @media (max-width: 900px) {
+      height: 300px;
+    }
+  }
+  a span {
+    color: #d7d7d7;
+    text-decoration: underline;
+    :hover {
+      color: #515cde;
+      background-color: #d7d7d7;
+    }
+  }
+`;
+
+export const Images = styled.div`
+  display: flex;
+  a {
+    width: 45%;
+  }
+  @media (max-width: 800px) {
+    flex-direction: column;
+    a,
+    img {
+      width: 100%;
+    }
+  }
 `;

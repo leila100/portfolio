@@ -8,12 +8,12 @@ import reports from "../../assets/images/helloMelon_reports.png";
 import reports2 from "../../assets/images/helloMelon_reports2.png";
 import coach from "../../assets/images/helloMelon_coach.png";
 import coach2 from "../../assets/images/helloMelon_coach2.png";
-import { HelloMelonWrapper, Images } from "../../styles/helloMelonStyles";
+import { ProjDescriptionWrapper, Images } from "../../styles/projectStyles";
 import { Section, List, Techs, Tech } from "../../styles/commonStyles";
 
 const HelloLemon = () => {
   return (
-    <HelloMelonWrapper>
+    <ProjDescriptionWrapper>
       <NavBar />
       <h1>Welcome to Hello Melon</h1>
       <h2>Take control of your health</h2>
@@ -208,7 +208,7 @@ const HelloLemon = () => {
           </li>
         </ul>
       </List>
-    </HelloMelonWrapper>
+    </ProjDescriptionWrapper>
   );
 };
 
