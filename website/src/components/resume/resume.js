@@ -145,6 +145,7 @@ const resume = () => {
             <Techs>
               <Tech>Javascript</Tech>
               <Tech>React</Tech>
+              <Tech>React Hooks</Tech>
               <Tech>Redux</Tech>
               <Tech>CSS</Tech>
               <Tech>HTML</Tech>
@@ -153,6 +154,7 @@ const resume = () => {
               <Tech>RESTful API </Tech>
               <Tech>GraphQl</Tech>
               <Tech>Testing - Jest</Tech>
+              <Tech>Python</Tech>
             </Techs>
             <h2>PERSONAL PROJECTS</h2>
             <List>
@@ -174,33 +176,59 @@ const resume = () => {
                   <p>Tech: React - GraphQl - sqlite3 - Stripe - MaterialUI - Styled Components.</p>
                 </li>
                 <li>
-                  <p>Application: https://hello-melon-lambda.netlify.com/</p>
+                  <p>
+                    Application:{" "}
+                    <a href='https://hello-melon-lambda.netlify.com/' target='_blank' rel='noopener noreferrer'>
+                      {" "}
+                      https://hello-melon-lambda.netlify.com/
+                    </a>
+                  </p>
                 </li>
                 <li>
-                  <p>Code: https://github.com/labspt3-nutrition-tracker</p>
+                  <p>
+                    Code:{" "}
+                    <a href='https://github.com/labspt3-nutrition-tracker' target='_blank' rel='noopener noreferrer'>
+                      https://github.com/labspt3-nutrition-tracker
+                    </a>
+                  </p>
                 </li>
               </ul>
             </List>
             <List>
-              <h3>OER BOOKR (02/2019)</h3>
+              <h3>Forget Me Not (05/2019 – 07/2019)</h3>
               <ul>
                 <li>
                   <p>
-                    OER-Bookr is a free application that provides digitized materials offered freely and openly for
-                    educators, students, and self-learners to use and reuse for teaching, learning, and research.
+                    Forget Me Not is an application that sends thoughtful messages, on your behalf, to people you know
+                    on their special day.
                   </p>
                 </li>
                 <li>
-                  <p>Team of five.</p>
+                  <p>
+                    This application was built initially during a build week by a remote team of 5, it was called BETTER
+                    FRIENDS REMINDERS. I was responsible for the back end portion. I was also taking the role of the
+                    team lead. It took about 2 weeks to build (working mostly nights). I added some technology (Redux
+                    for example), and refactored the code to create Forget Me Not.
+                  </p>
                 </li>
                 <li>
-                  <p>Tech: React Single Page Application - Node - Express - SQLite.</p>
+                  <p>Tech: React - React Hooks - Redux - Node - SQLite - Sendgrid - MaterialUI - Styled Components.</p>
                 </li>
                 <li>
-                  <p>Application: https://open-source-edu-books.netlify.com/</p>
+                  <p>
+                    Application:{" "}
+                    <a href='https://forgetmenot.netlify.com/' target='_blank' rel='noopener noreferrer'>
+                      https://forgetmenot.netlify.com/
+                    </a>
+                  </p>
                 </li>
                 <li>
-                  <p>Code: https://github.com/oer-booker-best-team</p>
+                  <p>
+                    Code:{" "}
+                    <a href='https://github.com/leila100/forgetMeNot' target='_blank' rel='noopener noreferrer'>
+                      https://github.com/leila100/forgetMeNot
+                    </a>
+                  </p>
                 </li>
               </ul>
             </List>
