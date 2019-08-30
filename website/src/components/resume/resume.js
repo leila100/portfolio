@@ -3,7 +3,7 @@ import React from "react";
 import NavBar from "../navigation/Navbar";
 import { Resume, Contact, Body, Column, Date } from "../../styles/resumeStyles";
 import { Section, Icons, List, Techs, Tech } from "../../styles/commonStyles";
-import resumePDF from "../../assets/images/LEILAResume.pdf";
+import resumePDF from "../../assets/images/Resume - Leila berrouayel.pdf";
 import resumeImage from "../../assets/images/resume.png";
 
 const resume = () => {
