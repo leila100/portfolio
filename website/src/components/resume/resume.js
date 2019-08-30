@@ -173,6 +173,15 @@ const resume = () => {
                   </p>
                 </li>
                 <li>
+                  <p>Took responsibility for major parts of back end and front end acting as a full stack developer.</p>
+                </li>
+                <li>
+                  <p>Effectively communicating any setbacks and successes with team members.</p>
+                </li>
+                <li>
+                  <p>Rapidly and successfully implemented a new technology (GraphQL) on the back end.</p>
+                </li>
+                <li>
                   <p>Tech: React - GraphQl - sqlite3 - Stripe - MaterialUI - Styled Components.</p>
                 </li>
                 <li>
@@ -205,10 +214,18 @@ const resume = () => {
                 </li>
                 <li>
                   <p>
-                    This application was built initially during a build week by a remote team of 5, it was called BETTER
-                    FRIENDS REMINDERS. I was responsible for the back end portion. I was also taking the role of the
-                    team lead. It took about 2 weeks to build (working mostly nights). I added some technology (Redux
-                    for example), and refactored the code to create Forget Me Not.
+                    Got selected as a team lead for this project, managing and guiding a remote team of 5 (working
+                    mostly nights) for about 2 weeks, making sure the members of team were communicating effectively and
+                    no issue went unnoticed.
+                  </p>
+                </li>
+                <li>
+                  <p>Took responsibility for the majority of the back end portion of the app.</p>
+                </li>
+                <li>
+                  <p>
+                    The application wasn't completed to my satisfaction, so I refactored the code and added some
+                    technology (Redux for example) to create Forget Me Not.
                   </p>
                 </li>
                 <li>
