@@ -19,7 +19,7 @@ const resume = () => {
         <Section>
           <p>
             Reliable, committed, and dependable Web/Software Developer with 2+ years working as a Teaching Assistant in
-            a university's Computer Science Department while pursuing a Masters degree.{" "}
+            a university's Computer Science Department while pursuing a Master's degree.{" "}
           </p>
           <p>
             An additional 2+ years working in an oil company's IT team has helped develop communication, and management
@@ -100,13 +100,13 @@ const resume = () => {
               </ul>
             </List>
             <List>
-              <h3>Masters in Computer Science</h3>
+              <h3>Master's in Computer Science</h3>
               <h4>UNIVERSITY OF HOUSTON</h4>
               <Date>1998 – 2001</Date>
               <ul>
                 <li>
                   <p>
-                    Masters Thesis - "An Object Oriented Subsystem for Learning Directions and their Relationships" -
+                    Master's Thesis - "An Object Oriented Subsystem for Learning Directions and their Relationships" -
                     Developed an object-oriented subsystem, part of a large learning program, using C++ in a team of
                     two.
                   </p>
@@ -127,8 +127,8 @@ const resume = () => {
               <ul>
                 <li>
                   <p>
-                    Point of contact for customizing Documentum (Document Management Software) to fit users needs - Java
-                    - HTML.
+                    Point of contact for customizing Documentum (Document Management Software) to fit user's needs -
+                    Java - HTML.
                   </p>
                 </li>
                 <li>
@@ -167,19 +167,19 @@ const resume = () => {
                   </p>
                 </li>
                 <li>
-                  <p>
-                    This application was built by a remote team of 6 (then 4) people managed and guided by Lambda
-                    School's Team Leads. It took about 10 weeks to build (working mostly nights).
-                  </p>
-                </li>
-                <li>
-                  <p>Took responsibility for major parts of back end and front end acting as a full stack developer.</p>
+                  <p>Took responsibility for major parts of backend and frontend, acting as a full stack developer.</p>
                 </li>
                 <li>
                   <p>Effectively communicating any setbacks and successes with team members.</p>
                 </li>
                 <li>
                   <p>Rapidly and successfully implemented a new technology (GraphQL) on the back end.</p>
+                </li>
+                <li>
+                  <p>
+                    This application was built by a remote team of 6 (then 4) people managed and guided by Lambda
+                    School's Team Leads. It took about 10 weeks to build (working mostly nights).
+                  </p>
                 </li>
                 <li>
                   <p>Tech: React - GraphQl - sqlite3 - Stripe - MaterialUI - Styled Components.</p>
@@ -215,18 +215,14 @@ const resume = () => {
                 <li>
                   <p>
                     Got selected as a team lead for this project, managing and guiding a remote team of 5 (working
-                    mostly nights) for about 2 weeks, making sure the members of team were communicating effectively and
-                    no issue went unnoticed.
+                    mostly nights) for about 2 weeks.
                   </p>
                 </li>
                 <li>
                   <p>Took responsibility for the majority of the back end portion of the app.</p>
                 </li>
                 <li>
-                  <p>
-                    The application wasn't completed to my satisfaction, so I refactored the code and added some
-                    technology (Redux for example) to create Forget Me Not.
-                  </p>
+                  <p>Refactored code and added some technology (Redux for example) to create Forget Me Not.</p>
                 </li>
                 <li>
                   <p>Tech: React - React Hooks - Redux - Node - SQLite - Sendgrid - MaterialUI - Styled Components.</p>
@@ -244,6 +240,14 @@ const resume = () => {
                     Code:{" "}
                     <a href='https://github.com/leila100/forgetMeNot' target='_blank' rel='noopener noreferrer'>
                       https://github.com/leila100/forgetMeNot
+                    </a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Old application:
+                    <a href='https://friends-reminder.netlify.com/' target='_blank' rel='noopener noreferrer'>
+                      https://friends-reminder.netlify.com/
                     </a>
                   </p>
                 </li>
