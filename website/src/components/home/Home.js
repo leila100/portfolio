@@ -36,7 +36,7 @@ const Home = () => {
             <Fade bottom cascade when={open} duration={1200}>
               <div>
                 <p>
-                  Web/Software Developer with 2+ years working as a Teaching Assistant while pursuing a Masters degree
+                  Web/Software Developer with 2+ years working as a Teaching Assistant while pursuing a Master's degree
                   in Computer Science.
                 </p>
                 <p>

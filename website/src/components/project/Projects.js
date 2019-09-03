@@ -54,23 +54,6 @@ const Projects = () => {
             </Icons>
           </ProjectWrapper>
         </Fade>
-        <Fade right duration={1200} delay={1000}>
-          <ProjectWrapper>
-            <Link to='/'>
-              <h1>OER Bookr</h1>
-              <img src={oerBookr} alt='Hello Melon - Home' />
-              <p>OER Bookr is an application enabling users to share educational books.</p>
-            </Link>
-            <Icons left>
-              <a href='https://open-source-edu-books.netlify.com/' target='_blank' rel='noopener noreferrer'>
-                <i className='fas fa-eye' />
-              </a>
-              <a href='https://github.com/oer-booker-best-team' target='_blank' rel='noopener noreferrer'>
-                <i className='fab fa-github' />
-              </a>
-            </Icons>
-          </ProjectWrapper>
-        </Fade>
       </ProjectsWrapper>
     </>
   );
