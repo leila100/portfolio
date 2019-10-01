@@ -163,6 +163,12 @@ const HelloLemon = () => {
           <Tech data-aos='fade-down' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
             strip
           </Tech>
+          <Tech data-aos='fade-down' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
+            Full Calendar
+          </Tech>
+          <Tech data-aos='fade-down' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
+            chart.js
+          </Tech>
           <Tech data-aos='fade-left' data-aos-easing='ease-out-cubic' data-aos-duration='1500'>
             MaterialUI
           </Tech>

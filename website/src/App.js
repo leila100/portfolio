@@ -10,6 +10,7 @@ import Resume from "./components/resume/resume";
 import { Icons } from "./styles/commonStyles";
 import HelloLemon from "./components/project/HelloLemon";
 import ForgetMeNot from "./components/project/ForgetMeNot";
+import LambdaMUD from "./components/project/LambdaMUD";
 
 AOS.init();
 
@@ -39,6 +40,7 @@ class App extends Component {
           <Route path='/projects' component={Projects} />
           <Route path='/helloMelon' component={HelloLemon} />
           <Route path='/FMN' component={ForgetMeNot} />
+          <Route path='/lambdaMUD' component={LambdaMUD} />
           <Route path='/resume' component={Resume} />
         </div>
       </>
