@@ -219,10 +219,16 @@ const resume = () => {
                   </p>
                 </li>
                 <li>
-                  <p>Took responsibility for the majority of the back end portion of the app.</p>
+                  <p>
+                    Took responsibility for the majority of the back end portion of the app, and rapidly and
+                    successfully implemented new technology (Django - Pusher).
+                  </p>
                 </li>
                 <li>
                   <p>Refactored code and added some technology (Redux for example) to create Forget Me Not.</p>
+                </li>
+                <li>
+                  <p>This application was built by a remote team of 4 people. It took less than two weeks to build.</p>
                 </li>
                 <li>
                   <p>Tech: React - React Hooks - Redux - Node - SQLite - Sendgrid - MaterialUI - Styled Components.</p>
@@ -248,6 +254,42 @@ const resume = () => {
                     Old application:
                     <a href='https://friends-reminder.netlify.com/' target='_blank' rel='noopener noreferrer'>
                       https://friends-reminder.netlify.com/
+                    </a>
+                  </p>
+                </li>
+              </ul>
+            </List>
+            <List>
+              <h3>Lambda MUD (09/2019)</h3>
+              <ul>
+                <li>
+                  <p>LambdaMUD is a multiplayer real-time world combining maze traversing, and online chat.</p>
+                </li>
+                <li>
+                  <p>
+                    Players select their avatar, and then find their way to the door. Players can also interact with
+                    each other by using a chatroom.
+                  </p>
+                </li>
+                <li>
+                  <p>Took responsibility for the majority of the back end portion of the app.</p>
+                </li>
+                <li>
+                  <p>Tech: React - Django - SQLite - Sendgrid - Pusher - SASS - Styled Components.</p>
+                </li>
+                <li>
+                  <p>
+                    Application:{" "}
+                    <a href='https://lambda-mud7.netlify.com/' target='_blank' rel='noopener noreferrer'>
+                      https://lambda-mud7.netlify.com/
+                    </a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Code:{" "}
+                    <a href='https://github.com/LambdaMUD' target='_blank' rel='noopener noreferrer'>
+                      https://github.com/LambdaMUD
                     </a>
                   </p>
                 </li>
