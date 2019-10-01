@@ -7,7 +7,7 @@ import { Icons } from "../../styles/commonStyles";
 import NavBar from "../navigation/Navbar";
 import helloMelon from "../../assets/images/helloMelon_home.png";
 import forgetMeNot from "../../assets/images/FMN_home.png";
-import oerBookr from "../../assets/images/OERBookr_home.png";
+import lambdamud from "../../assets/images/lambdamud.png";
 
 const Projects = () => {
   return (
@@ -49,6 +49,26 @@ const Projects = () => {
                 <i className='fas fa-eye' />
               </a>
               <a href='https://github.com/leila100/forgetMeNot' target='_blank' rel='noopener noreferrer'>
+                <i className='fab fa-github' />
+              </a>
+            </Icons>
+          </ProjectWrapper>
+        </Fade>
+        <Fade right duration={1200} delay={500}>
+          <ProjectWrapper>
+            <Link to='/lambdaMUD'>
+              <h1>Lambda MUD</h1>
+              <img src={lambdamud} alt='Lambda MUD - Home' />
+              <p>
+                A multiplayer real-time world combining maze traversing, and online chat. Players select their avatar,
+                and then find their way to the door. Players can also interact with each other by using a chatroom.
+              </p>
+            </Link>
+            <Icons left>
+              <a href='https://lambda-mud7.netlify.com/' target='_blank' rel='noopener noreferrer'>
+                <i className='fas fa-eye' />
+              </a>
+              <a href='https://github.com/LambdaMUD' target='_blank' rel='noopener noreferrer'>
                 <i className='fab fa-github' />
               </a>
             </Icons>

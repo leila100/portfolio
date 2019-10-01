@@ -93,8 +93,8 @@ export const ProjDescriptionWrapper = styled.div`
     font-size: 2.2rem;
   }
   img {
-    width: 90%;
-    height: 500px;
+    width: 75%;
+    height: 350px;
     margin-top: 60px;
     @media (max-width: 900px) {
       height: 300px;

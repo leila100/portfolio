@@ -159,13 +159,11 @@ const resume = () => {
             <h2>PERSONAL PROJECTS</h2>
             <List>
               <h3>Hello Melon (05/2019 – 07/2019)</h3>
+              <p>
+                Hello Melon is a simple, user friendly nutrition tracking application that provides a visualization of
+                eating patterns and nutritional data to empower people to take control of their health.
+              </p>
               <ul>
-                <li>
-                  <p>
-                    Hello Melon is a simple, user friendly nutrition tracking application that provides a visualization
-                    of eating patterns and nutritional data to empower people to take control of their health.
-                  </p>
-                </li>
                 <li>
                   <p>Took responsibility for major parts of backend and frontend, acting as a full stack developer.</p>
                 </li>
@@ -205,21 +203,19 @@ const resume = () => {
             </List>
             <List>
               <h3>Forget Me Not (05/2019 – 07/2019)</h3>
+              <p>
+                Forget Me Not is an application that sends thoughtful messages, on your behalf, to people you know on
+                their special day.
+              </p>
               <ul>
                 <li>
-                  <p>
-                    Forget Me Not is an application that sends thoughtful messages, on your behalf, to people you know
-                    on their special day.
-                  </p>
+                  <p>Took responsibility for the majority of the back end portion of the app.</p>
                 </li>
                 <li>
                   <p>
                     Got selected as a team lead for this project, managing and guiding a remote team of 5 (working
                     mostly nights) for about 2 weeks.
                   </p>
-                </li>
-                <li>
-                  <p>Took responsibility for the majority of the back end portion of the app.</p>
                 </li>
                 <li>
                   <p>Refactored code and added some technology (Redux for example) to create Forget Me Not.</p>
@@ -248,6 +244,46 @@ const resume = () => {
                     Old application:
                     <a href='https://friends-reminder.netlify.com/' target='_blank' rel='noopener noreferrer'>
                       https://friends-reminder.netlify.com/
+                    </a>
+                  </p>
+                </li>
+              </ul>
+            </List>
+            <List>
+              <h3>Lambda MUD (09/2019)</h3>
+              <p>LambdaMUD is a multiplayer real-time world combining maze traversing, and online chat.</p>
+              <ul>
+                <li>
+                  <p>
+                    Players select their avatar, and then find their way to the door. Players can also interact with
+                    each other by using a chatroom.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Took responsibility for the majority of the back end portion of the app, and rapidly and
+                    successfully implemented new technology (Django - Pusher).
+                  </p>
+                </li>
+                <li>
+                  <p>This application was built by a remote team of 4 people. It took less than two weeks to build.</p>
+                </li>
+                <li>
+                  <p>Tech: React - Django - SQLite - Sendgrid - Pusher - SASS - Styled Components.</p>
+                </li>
+                <li>
+                  <p>
+                    Application:{" "}
+                    <a href='https://lambda-mud7.netlify.com/' target='_blank' rel='noopener noreferrer'>
+                      https://lambda-mud7.netlify.com/
+                    </a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Code:{" "}
+                    <a href='https://github.com/LambdaMUD' target='_blank' rel='noopener noreferrer'>
+                      https://github.com/LambdaMUD
                     </a>
                   </p>
                 </li>
