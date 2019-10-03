@@ -11,6 +11,7 @@ import { Icons } from "./styles/commonStyles";
 import HelloLemon from "./components/project/HelloLemon";
 import ForgetMeNot from "./components/project/ForgetMeNot";
 import LambdaMUD from "./components/project/LambdaMUD";
+import ScrollIntoView from "./components/util/ScrollIntoView";
 
 AOS.init();
 
@@ -36,12 +37,14 @@ class App extends Component {
               </a>
             </Swing>
           </Icons>
-          <Route exact path='/' component={Home} />
-          <Route path='/projects' component={Projects} />
-          <Route path='/helloMelon' component={HelloLemon} />
-          <Route path='/FMN' component={ForgetMeNot} />
-          <Route path='/lambdaMUD' component={LambdaMUD} />
-          <Route path='/resume' component={Resume} />
+          <ScrollIntoView>
+            <Route exact path='/' component={Home} />
+            <Route path='/projects' component={Projects} />
+            <Route path='/helloMelon' component={HelloLemon} />
+            <Route path='/FMN' component={ForgetMeNot} />
+            <Route path='/lambdaMUD' component={LambdaMUD} />
+            <Route path='/resume' component={Resume} />
+          </ScrollIntoView>
         </div>
       </>
     );

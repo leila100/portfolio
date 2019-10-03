@@ -47,7 +47,7 @@ const Home = () => {
             </Fade>
           </About>
         </Fade>
-        <NavBar />
+        <NavBar handleOpen={handleOpen} />
       </Header>
     </Container>
   );
