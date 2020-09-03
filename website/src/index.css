@@ -143,6 +143,7 @@ table {
 body {
   margin: 0;
   height: 100%;
+  font-family: "Open Sans", sans-serif;
 }
 
 html {
@@ -156,16 +157,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: black;
-  text-decoration: none;
-}
-
 #root {
   height: 100%;
-}
-
-body {
-  background-image: linear-gradient(to right, #2f88d6, #515cde);
-  background-size: cover;
 }
