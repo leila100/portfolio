@@ -27,6 +27,10 @@ export const ProjectsWrapper = styled.div`
   flex-wrap: wrap;
   align-content: space-between;
   justify-content: center;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
 `;
 
 export const ProjectWrapper = styled.div`
@@ -37,6 +41,10 @@ export const ProjectWrapper = styled.div`
   width: 47%;
   padding: 20px;
   margin: 10px auto;
+  @media (max-width: 700px) {
+    width: 90%;
+    margin: 20px;
+  }
 `;
 
 export const Title = styled.h3`
