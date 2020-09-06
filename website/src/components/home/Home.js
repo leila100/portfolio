@@ -1,17 +1,8 @@
-import React, { useState } from "react";
-// import Fade from "react-reveal/Fade";
-// import HeadShake from "react-reveal/HeadShake";
+import React from "react";
 
-import { HomeSection, Container, Header } from "../../styles/homeStyles";
-// import leila from "../../assets/images/Leila.jpg";
+import { HomeSection, Container, Header } from "./homeStyles";
 
 const Home = () => {
-  const [open, setOpen] = useState(false);
-
-  const handleOpen = () => {
-    setOpen(!open);
-  };
-
   return (
     <HomeSection>
       <Container>
@@ -21,6 +12,7 @@ const Home = () => {
             Web Developer -<br />
             Software Engineer
           </h2>
+          <h3>JavaScript, React, Node, GraphQL, Python, Sqlite - Agile Enthusiast</h3>
         </Header>
       </Container>
     </HomeSection>

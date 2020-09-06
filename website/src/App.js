@@ -5,7 +5,7 @@ import React, { Component } from "react";
 // import "aos/dist/aos.css";
 
 import IconsNav from "./components/navigation/IconsNav";
-import Home from "./components/home/Home";
+import Landing from "./components/Landing/Landing";
 // import Projects from "./components/project/Projects";
 // import Resume from "./components/resume/resume";
 import { Icons } from "./styles/commonStyles";
@@ -19,7 +19,7 @@ import { Icons } from "./styles/commonStyles";
 const App = () => (
   <>
     <IconsNav />
-    <Home />
+    <Landing />
   </>
 );
 // class App extends Component {

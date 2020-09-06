@@ -1,12 +1,11 @@
 import styled from "styled-components";
-import backgroundImage from "../assets/images/background.jpg";
+import backgroundImage from "../../assets/images/background.jpg";
 
 export const HomeSection = styled.section`
   background-position: center;
   padding-top: 80px;
   min-height: 100vh;
   position: relative;
-  /* background-image: linear-gradient(to right, #2f88d6, #515cde); */
   background: url(${backgroundImage});
   background-size: cover;
   display: flex;
@@ -36,6 +35,12 @@ export const Header = styled.div`
     font-weight: 600;
     letter-spacing: 1px;
     line-height: 1.3;
+    margin-bottom: 3%;
+  }
+  h3 {
+    font-size: 2.1rem;
+    letter-spacing: 1px;
+    line-height: 1.3;
     margin-bottom: 10%;
   }
   p {
@@ -46,60 +51,16 @@ export const Header = styled.div`
   }
 
   @media (max-width: 800px) {
-    line-height: 50px;
-    h1 {
+    line-height: 1.1;
+    max-width: 100%;
+    .heading {
       font-size: 4.5rem;
     }
-    h2 {
-      font-size: 2.5rem;
-    }
-    h3 {
+    .subHeading {
       font-size: 2rem;
     }
-  }
-`;
-
-export const About = styled.div`
-  display: flex;
-  margin-top: 10px;
-  font-family: "Playfair Display", serif;
-  padding: 20px;
-  p {
-    font-size: 2.2rem;
-    text-align: left;
-    margin-left: 7%;
-    line-height: 1.8;
-    margin-top: 10px;
-  }
-  img {
-    text-align: center;
-    margin-top: 15px;
-    width: 60%;
-    height: 200px;
-    border-radius: 30%;
-  }
-  @media (max-width: 800px) {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0;
-    img {
-      width: 30%;
-      margin-bottom: 10px;
-    }
-    p {
-      margin-left: 0;
+    h3 {
       font-size: 1.8rem;
-      line-height: 2;
     }
-  }
-`;
-
-export const Who = styled.div`
-  font-size: 2.5rem;
-  margin-top: 10px;
-  cursor: pointer;
-  i {
-    margin-right: 2%;
-    font-size: 3rem;
   }
 `;
