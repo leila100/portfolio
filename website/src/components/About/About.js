@@ -9,8 +9,8 @@ const About = () => {
         <Description>
           <Title>Web Developer</Title>
           <Text>
-            Joined Lambda School, an 18+ months Computer Science & Software Engineering online Academy that provides an
-            immersive hands-on curriculum with a focus on computer science, software engineering, and web development.
+            Joined Lambda School, a Computer Science & Software Engineering online Academy that provides an immersive
+            hands-on curriculum with a focus on computer science, software engineering, and web development.
           </Text>
         </Description>
         <Description>

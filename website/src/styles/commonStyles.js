@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Icons = styled.div`
-  background: transparent;
+  background: black;
   color: white;
   z-index: 10;
   position: fixed;

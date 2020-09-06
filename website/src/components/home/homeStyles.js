@@ -4,7 +4,7 @@ import backgroundImage from "../../assets/images/background.jpg";
 export const HomeSection = styled.section`
   background-position: center;
   padding-top: 80px;
-  min-height: 100vh;
+  min-height: 85vh;
   position: relative;
   background: url(${backgroundImage});
   background-size: cover;

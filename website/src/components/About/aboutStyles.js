@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AboutSection = styled.section`
   max-width: 1140px;
-  margin: 30px auto;
+  margin: 45px auto;
 `;
 
 export const Descriptions = styled.div`
@@ -11,8 +11,6 @@ export const Descriptions = styled.div`
   justify-content: space-between;
   align-content: center;
   font-size: 1.7rem;
-  margin: 35px auto;
-  max-width: 1000px;
 
   @media (max-width: 900px) {
     max-width: 660px;
