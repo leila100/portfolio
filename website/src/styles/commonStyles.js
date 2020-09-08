@@ -9,17 +9,21 @@ export const Icons = styled.div`
 
 export const Button = styled.button`
   width: 300px;
-  border: 1px solid #9acff6;
+  background: white;
+  border: none;
+  border-bottom: 5px solid #9acff6;
   color: black;
   font-size: 1.4rem;
   font-weight: 600;
   border-radius: 6px;
+  cursor: pointer;
 
   @media (max-width: 700px) {
     padding: 5px;
   }
 
   :hover {
+    border: 1px solid black;
     color: #9acff6;
     background: black;
   }

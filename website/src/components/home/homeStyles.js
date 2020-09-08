@@ -70,4 +70,5 @@ export const Header = styled.div`
 export const HomeButton = styled(Button)`
   width: 30%;
   padding: 8px 20px;
+  border: 1px solid black;
 `;
