@@ -1,6 +1,7 @@
 import React from "react";
 
-import { HomeSection, Container, Header } from "./homeStyles";
+import { HomeSection, Container, Header, HomeButton } from "./homeStyles";
+import resume from "../../assets/images/Resume - Leila Berrouayel.pdf";
 
 const Home = () => {
   return (
@@ -13,6 +14,11 @@ const Home = () => {
             Software Engineer
           </h2>
           <h3>JavaScript, React, Node, GraphQL, Python, Sqlite - Agile Enthusiast</h3>
+          <HomeButton>
+            <a href={resume} target='_blank' rel='noopener noreferrer'>
+              Resume
+            </a>
+          </HomeButton>
         </Header>
       </Container>
     </HomeSection>

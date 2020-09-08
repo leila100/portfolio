@@ -1,5 +1,7 @@
 import styled from "styled-components";
+
 import backgroundImage from "../../assets/images/background.jpg";
+import { Button } from "../../styles/commonStyles";
 
 export const HomeSection = styled.section`
   background-position: center;
@@ -63,4 +65,9 @@ export const Header = styled.div`
       font-size: 1.8rem;
     }
   }
+`;
+
+export const HomeButton = styled(Button)`
+  width: 30%;
+  padding: 8px 20px;
 `;

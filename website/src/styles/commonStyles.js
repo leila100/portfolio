@@ -13,6 +13,11 @@ export const Button = styled.button`
   color: black;
   font-size: 1.4rem;
   font-weight: 600;
+  border-radius: 6px;
+
+  @media (max-width: 700px) {
+    padding: 5px;
+  }
 
   :hover {
     color: #9acff6;

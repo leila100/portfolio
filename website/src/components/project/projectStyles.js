@@ -91,4 +91,8 @@ export const ProjButton = styled(Button)`
   padding: 8px 10px;
   border-width: 2px;
   border-radius: 6px;
+
+  @media (max-width: 700px) {
+    padding: 5px;
+  }
 `;
