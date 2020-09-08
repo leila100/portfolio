@@ -1,19 +1,26 @@
 import React from "react";
+import Swing from "react-reveal/Swing";
 
 import { NavIcons } from "./navStyles";
 
 const IconsNav = () => {
   return (
     <NavIcons right>
-      <a href='mailto:nb.leila10@gmail.com' target='_blank' rel='noopener noreferrer'>
-        <i className='far fa-envelope' />
-      </a>
-      <a href='https://www.linkedin.com/in/leila-berrouayel/' target='_blank' rel='noopener noreferrer'>
-        <i className='fab fa-linkedin' />
-      </a>
-      <a href='https://github.com/leila100' target='_blank' rel='noopener noreferrer'>
-        <i className='fab fa-github' />
-      </a>
+      <Swing forever duration={2000} delay={1000}>
+        <a href='mailto:nb.leila10@gmail.com' target='_blank' rel='noopener noreferrer'>
+          <i className='far fa-envelope' />
+        </a>
+      </Swing>
+      <Swing forever duration={2000} delay={1000}>
+        <a href='https://www.linkedin.com/in/leila-berrouayel/' target='_blank' rel='noopener noreferrer'>
+          <i className='fab fa-linkedin' />
+        </a>
+      </Swing>
+      <Swing forever duration={2000} delay={1000}>
+        <a href='https://github.com/leila100' target='_blank' rel='noopener noreferrer'>
+          <i className='fab fa-github' />
+        </a>
+      </Swing>
     </NavIcons>
   );
 };

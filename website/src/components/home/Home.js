@@ -1,4 +1,5 @@
 import React from "react";
+import Zoom from "react-reveal/Zoom";
 
 import { HomeSection, Container, Header, HomeButton } from "./homeStyles";
 import resume from "../../assets/images/Resume - Leila Berrouayel.pdf";
@@ -14,11 +15,13 @@ const Home = () => {
             Software Engineer
           </h2>
           <h3>JavaScript, React, Node, GraphQL, Python, Sqlite - Agile Enthusiast</h3>
-          <HomeButton>
-            <a href={resume} target='_blank' rel='noopener noreferrer'>
-              Resume
-            </a>
-          </HomeButton>
+          <Zoom>
+            <HomeButton>
+              <a href={resume} target='_blank' rel='noopener noreferrer'>
+                Resume
+              </a>
+            </HomeButton>
+          </Zoom>
         </Header>
       </Container>
     </HomeSection>
