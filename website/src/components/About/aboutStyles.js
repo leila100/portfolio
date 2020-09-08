@@ -42,4 +42,7 @@ export const Title = styled.h3`
 export const Text = styled.p`
   font-size: 1.7rem;
   line-height: 1.5;
+  strong {
+    font-weight: 700;
+  }
 `;
