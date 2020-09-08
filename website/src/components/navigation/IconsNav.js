@@ -1,10 +1,10 @@
 import React from "react";
 
-import { Icons } from "../../styles/commonStyles";
+import { NavIcons } from "./navStyles";
 
 const IconsNav = () => {
   return (
-    <Icons right>
+    <NavIcons right>
       <a href='mailto:nb.leila10@gmail.com' target='_blank' rel='noopener noreferrer'>
         <i className='far fa-envelope' />
       </a>
@@ -14,7 +14,7 @@ const IconsNav = () => {
       <a href='https://github.com/leila100' target='_blank' rel='noopener noreferrer'>
         <i className='fab fa-github' />
       </a>
-    </Icons>
+    </NavIcons>
   );
 };
 

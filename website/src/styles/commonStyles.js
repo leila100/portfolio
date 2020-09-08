@@ -1,21 +1,19 @@
 import styled from "styled-components";
 
 export const Icons = styled.div`
-  background: black;
-  color: white;
-  z-index: 10;
-  position: fixed;
-  top: 0;
   display: flex;
   width: 100%;
   flex-wrap: wrap;
   justify-content: flex-end;
+`;
 
-  a {
-    margin: 20px 3%;
-    font-size: 3rem;
-    :hover {
-      color: #9acff6;
-    }
+export const Button = styled.button`
+  width: 300px;
+  border: 1px solid #9acff6;
+  color: black;
+
+  :hover {
+    color: #9acff6;
+    background: black;
   }
 `;

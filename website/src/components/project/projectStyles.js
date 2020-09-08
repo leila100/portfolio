@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 import backgroundImage from "../../assets/images/background2.jpg";
+import { Icons } from "../../styles/commonStyles";
 
 export const ProjectSection = styled.section`
   background: url(${backgroundImage});
@@ -26,7 +27,7 @@ export const ProjectsWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
-  justify-content: center;
+  justify-content: flex-start;
 
   @media (max-width: 700px) {
     flex-direction: column;
@@ -40,7 +41,7 @@ export const ProjectWrapper = styled.div`
   flex-direction: column;
   width: 47%;
   padding: 20px;
-  margin: 10px auto;
+  margin: ${(props) => (props.third ? "10px 18px" : "10px auto")};
   @media (max-width: 700px) {
     width: 90%;
     margin: 20px;
@@ -75,4 +76,15 @@ export const Tech = styled.div`
   line-height: 1.6;
   margin: 1% 0;
   font-family: "Open Sans", sans-serif;
+`;
+
+export const ProjIcons = styled(Icons)`
+  justify-content: center;
+  button,
+  a {
+    width: 25%;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    border-width: 2px;
+  }
 `;
