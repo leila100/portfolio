@@ -63,6 +63,11 @@ const Projects = () => {
               </a>
             </ProjButton>
             <ProjButton>
+              <a href='https://www.youtube.com/watch?v=yAJ2viGBuEo' target='_blank' rel='noopener noreferrer'>
+                Demo
+              </a>
+            </ProjButton>
+            <ProjButton>
               <a href='https://github.com/labspt3-nutrition-tracker' target='_blank' rel='noopener noreferrer'>
                 CODE
               </a>
